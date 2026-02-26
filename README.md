@@ -49,9 +49,9 @@ npm test
 ```
 
 
-```md
+
 ![Test results](docs/screenshots/test_results.jpg)
-```
+
 
 ## Структура проекта
 
