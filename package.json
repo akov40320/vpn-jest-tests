@@ -1,0 +1,26 @@
+{
+  "name": "vpn-jest-tests-demo",
+  "version": "1.0.0",
+  "description": "Demo project (VPN theme) to showcase 10+ unit tests and 2 functional tests with Jest.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "test:unit": "jest tests/unit",
+    "test:functional": "jest tests/functional",
+    "coverage": "jest --coverage",
+    "results:txt": "npm test -- --runInBand | tee test-results.txt"
+  },
+  "keywords": [
+    "vpn",
+    "jest",
+    "testing",
+    "unit-tests",
+    "functional-tests"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
